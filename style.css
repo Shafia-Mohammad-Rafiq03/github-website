@@ -1,0 +1,207 @@
+body,
+html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("https://cantemo.com/news/images/background-portal-github-01.jpg");
+    min-height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* Add styles to the form container */
+
+.container {
+    position: absolute;
+    right: 0;
+    margin: 40px;
+    max-width: 400px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-right: 15%;
+}
+
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Set a style for the submit button */
+
+.btn {
+    background-color: #1ad843;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+p {
+    margin-left: 15%;
+    color: white;
+    font-size: 150%;
+}
+
+.bg-img>p>a {
+    color: white;
+    text-decoration: underline;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 350%;
+    padding-left: 15%;
+    padding-top: 10%;
+}
+
+.btn:hover {
+    opacity: 1;
+    background-color: #28A745;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    font-family: monospace;
+    background-color: #24292E;
+    padding-bottom: 2%;
+}
+
+.header>nav>ul>li>a>i {
+    font-weight: 3px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    color: white;
+    border-bottom: lightslategray;
+    display: inline-block;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+li a {
+    color: white;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    display: none;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding-right: 100px;
+}
+
+ul li:hover>ul,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+ul li ul li {
+    box-sizing: border-box;
+    padding: 4px;
+    margin-left: 25%;
+}
+
+ul li ul li a {
+    clear: both;
+    width: 100%;
+    color: black;
+    display: inline-block;
+}
+
+.buttons {
+    float: right;
+    margin-top: -4%;
+    padding: 5px;
+}
+
+#button {
+    border-radius: 3px;
+    border-color: white;
+    padding: 10px;
+    background-color: #24292E;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons>ul>li>input {
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #404448;
+    border: none;
+}
+
+.button {
+    border-radius: 3px;
+    padding: 10px;
+    background-color: #24292E;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: -25%;
+}
+
+.container>p {
+    font-size: 70%;
+    margin-left: -2%;
+    color: black;
+}
+
+li>i {
+    font-size: xx-large;
+}
